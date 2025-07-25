@@ -1,0 +1,26 @@
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Python backend
+backend/venv/
+backend/.env
+backend/app/__pycache__/
+backend/app/api/__pycache__/
+backend/app/api/v1/__pycache__/
+backend/app/api/v1/endpoints/__pycache__/
+backend/app/core/__pycache__/
+backend/app/db/__pycache__/
+backend/app/models/__pycache__/
+backend/app/schemas/__pycache__/
+
+# Node frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*```
